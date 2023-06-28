@@ -9,6 +9,7 @@ _PROJECTS = {
     "point_rend": "PointRend",
     "deeplab": "DeepLab",
     "panoptic_deeplab": "Panoptic-DeepLab",
+    "detr": "DETR", # 为什么是小写的detr
 }
 _PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent / "projects"
 

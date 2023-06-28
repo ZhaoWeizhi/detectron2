@@ -3,6 +3,7 @@ from detectron2.config import CfgNode as CN
 
 
 def add_detr_config(cfg):
+    # cfg is a CfgNode object. by zwz
     """
     Add config for DETR.
     """
